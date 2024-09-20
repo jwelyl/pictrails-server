@@ -10,7 +10,6 @@ from typing import List
 prefix_content: str = '''
 - 
 
-[IMS] N/A
 '''
 guide: str = '''
 # ===== Commit Types =====
@@ -24,8 +23,6 @@ guide: str = '''
 # ===== Commit Contents =====
 # Describe a detailed description.
 
-# ===== IMS =====
-# Write the issue number or N/A if it is not associated with the issue.
 '''
 branch_types: dict = {'b': 'bugfix', 'c': 'chore', 'd': 'docs', 'f': 'feat', 't': 'test', 'r': 'refactor'}
 
