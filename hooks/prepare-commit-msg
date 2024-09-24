@@ -51,7 +51,7 @@ def branch_check() -> str:
         raise NameError('***** CHECK YOUR BRANCH TEAM *****')
     if len(branch_title) < 3:
         raise NameError('***** CHECK YOUR BRANCH DESCRIPTION *****')
-    if '_' not in author or len(author) <= 4:
+    if len(author) <= 4:
         raise NameError('***** CHECK YOUR BRANCH AUTHOR *****')
     return prefix
 
