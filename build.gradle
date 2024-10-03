@@ -29,6 +29,9 @@ dependencies {
 //	implementation 'org.hibernate.validator:hibernate-validator:6.2.3.Final'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 
+	// swagger
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
